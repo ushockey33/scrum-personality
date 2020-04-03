@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.patterns-content {
+  position: absolute;
+  z-index: -999;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+.patterns-container {
+  position: relative;
+}
+
+.tweet-wall {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.tweet-wall_item {
+  width: 250px;
+  margin: 10px;
+}
+
+main {
+  width:100%;
+  min-height:calc(100% - 100px);
+  background-image: url('https://images.unsplash.com/photo-1446080501695-8e929f879f2b?fit=crop&fm=jpg&h=725&ixjsv=2.0.0&ixlib=rb-0.3.5&q=80&w=1225');;
+  background-size: cover;
+  background-attachment:fixed;
+}
